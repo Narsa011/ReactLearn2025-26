@@ -1,0 +1,23 @@
+h1 {
+  font-weight: 700;
+  font-size: 45px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+}
+
+.items-con {
+  text-align: left;
+}
+.NsRow {
+  margin: 22px 5px;
+}
+.btn-success {
+  position: relative;
+  right: 60px;
+  flex: 0 0 auto;
+  width: 37.66666667%;
+}
