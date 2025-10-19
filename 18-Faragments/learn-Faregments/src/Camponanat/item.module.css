@@ -1,0 +1,11 @@
+.nsc {
+  background-color: khaki;
+  position: relative;
+  top: -7px;
+  padding: 10px;
+  margin: 1px;
+}
+.nscspan {
+  font-weight: 500;
+  color: green;
+}
