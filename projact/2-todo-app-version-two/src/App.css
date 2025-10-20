@@ -1,0 +1,15 @@
+input {
+  width: 100%;
+}
+
+.items-con {
+  text-align: left;
+}
+.NsRow {
+  margin: 22px 5px;
+  text-align: left;
+  width: 100%;
+}
+.btn-success {
+  width: 37.66666667%;
+}
