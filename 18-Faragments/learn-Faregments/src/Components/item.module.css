@@ -1,11 +1,15 @@
 .nsc {
-  background-color: khaki;
   position: relative;
   top: -7px;
   padding: 10px;
   margin: 1px;
+  list-style: none;
+  border-top: 1px solid gray;
 }
 .nscspan {
   font-weight: 500;
   color: green;
+}
+.button {
+  float: right;
 }

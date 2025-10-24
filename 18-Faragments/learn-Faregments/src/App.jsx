@@ -1,5 +1,7 @@
-import FoodyItems from "./Camponanat/foodItems";
-import ErrorMSg from "./Camponanat/errorMessage";
+import FoodyItems from "./Components/foodItems";
+import Container from "./Components/Container";
+import ErrorMSg from "./Components/errorMessage";
+import FoodInput from "./Components/FoodInput";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
@@ -17,9 +19,12 @@ function App() {
 
   return (
     <>
-      <h1 className="foodHeading">Healthy Food.</h1>
-      <ErrorMSg items={foodItems} />
-      <FoodyItems items={foodItems} />
+      <Container>
+        <h1 className="foodHeading">Healthy Food.</h1>
+        <FoodInput />
+        <ErrorMSg items={foodItems} />
+        <FoodyItems items={foodItems} />
+      </Container>
     </>
   );
 }
